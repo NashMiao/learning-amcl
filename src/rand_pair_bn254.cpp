@@ -5,7 +5,7 @@
 #include <amcl/pair_BN254.h>
 #include <amcl/randapi.h>
 
-int main()
+int main(int argc, char const *argv[])
 {
     BN254_BIG::BIG x;
     amcl::csprng RNG;
